@@ -1,0 +1,2 @@
+Nombre: Oscar, Edad: 17
+Nombre: ELPEPE, Edad: 78
