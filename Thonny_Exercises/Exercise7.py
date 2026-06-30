@@ -13,9 +13,9 @@ class calculator:
         summatory = self.number1 + self.number2
         return f"La suma da {summatory}"
     
-    def substract(self):
-        substraction = self.number1 - self.number2
-        return f"La resta da {substraction}"
+    def subtract(self):
+        subtraction = self.number1 - self.number2
+        return f"La resta da {subtraction}"
     
     def multiply(self):
         mult = self.number1 * self.number2
@@ -24,7 +24,7 @@ class calculator:
     def divide(self):
         try:
             division = self.number1 / self.number2
+            return f"La division da {division}"
         except ZeroDivisionError:
-            print("Error, Imposible dividir entre 0")
-        return f"La division da: {division}"
+            return "Error: Imposible dividir entre 0"
             

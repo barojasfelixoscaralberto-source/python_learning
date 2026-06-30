@@ -7,5 +7,5 @@ F = (c * 9/5) + 32
 
 celsius = [0, 20, 37, 50, 100, -10, 25]
 
-farenheit = [temperature for temperature in celsius if ((temperature * 9/5) + 32) >= 100]
+farenheit = [(temperature * 9/5) + 32 for temperature in celsius if ((temperature * 9/5) + 32) >= 100]
 print(farenheit)
