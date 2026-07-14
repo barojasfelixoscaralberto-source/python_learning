@@ -184,7 +184,7 @@ while jugador.health > 0 and enemigo.health > 0:
         jugador.health -= enemigo.attack_power
         
     elif desicion_enemigo == "no hace nada":
-        print("XD pendejo no hace nada")
+        print("XD no hace nada")
         
     else:
         print("¡El enemigo se cura!")
