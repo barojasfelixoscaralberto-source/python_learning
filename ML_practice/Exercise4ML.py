@@ -3,7 +3,6 @@ Crea un Dataframe con datos de 5 estudiantes: name, grade (0-100), subject
 Filtra los que tienen grade mayor a 70 
 Muestra solo sus nombres y calificaciones
 '''
-"""PART ONE"""
 import pandas as pd
 
 data = {
