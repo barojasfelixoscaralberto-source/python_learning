@@ -2,7 +2,6 @@
 Carga datos.csv
 muestra el describe() y filtra solo los de culiacan con score >= 75
 '''
-
 import pandas as pd
 import numpy as np
 
